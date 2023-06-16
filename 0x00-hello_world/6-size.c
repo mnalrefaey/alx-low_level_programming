@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - Entry point
  * description:using sizeof to print the size of various types
