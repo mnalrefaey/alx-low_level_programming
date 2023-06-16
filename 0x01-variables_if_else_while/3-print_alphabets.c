@@ -17,11 +17,11 @@ putchar(ch);
 ch++;
 }
 
-char sh = 'A';
-while (sh <= 'Z')
+char A = 'A';
+while (A <= 'Z')
 {
-putchar(sh);
-sh++;
+putchar(A);
+A++;
 }
 putchar('\n');
 
