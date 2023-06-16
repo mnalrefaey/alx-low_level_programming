@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * description:using sizeof to print the size of various types
- * Return:always 0 (sucsses)
+ * description: using sizeof to print the size of various types
+ * Return:Always 0 (sucsses)
 */
 int main(void)
 {
