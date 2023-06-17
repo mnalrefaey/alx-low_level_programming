@@ -23,8 +23,8 @@ putchar (digit2 + 48);
 
 if (digit1 + digit2 != 17)
 {
-putchat(',');
-putchat(' ');
+putchar(',');
+putchar(' ');
 }
 }
 digit2++;
