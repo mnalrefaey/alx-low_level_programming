@@ -11,25 +11,11 @@
 int print_last_digit(int n)
 {
 int digit;
-if (n > 0)
-{
-digit = (n % 10);
-_putchar (digit + '0');
-_putchar ('\n');
-return (digit);
-}
-else if (n == 0)
-{
-digit = 0 % 10;
-_putchar (digit + '0');
-_putchar ('\n');
-return (digit);
-}
+if (n < 0)
+digit = (n % 10) * -1;
 else
-{
-digit = n % 10 * (-1);
+digit = n % 10;
 _putchar (digit + '0');
 _putchar ('\n');
 return (digit);
-}
 }
