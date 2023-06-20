@@ -1,4 +1,4 @@
-i#include"main.h"
+#include"main.h"
 
 /**
  * print_last_digit - function that prints the last digit
@@ -8,8 +8,8 @@ i#include"main.h"
  * Return: returns always(0) success
 */
 
-int print_last_digit(int n);
+int print_last_digit(int n)
 {
 int digit = n % 10;
-return (0);
+return (digit);
 }
