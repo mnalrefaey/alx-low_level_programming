@@ -5,7 +5,7 @@
  *
  * @n: takes an integer for function
  *
- * Return: returns always(0) success
+ * Return: returns last digit 
 */
 
 int print_last_digit(int n)
@@ -16,6 +16,5 @@ digit = (n % 10) * -1;
 else
 digit = n % 10;
 _putchar (digit + '0');
-_putchar ('\n');
 return (digit);
 }
