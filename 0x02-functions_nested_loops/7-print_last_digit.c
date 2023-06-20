@@ -24,6 +24,6 @@ else
 digit = n % 10;
 }
 _putchar (digit + '0');
-_putchar ('\n')
+_putchar ('\n');
 return (digit);
 }
