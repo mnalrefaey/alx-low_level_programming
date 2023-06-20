@@ -15,21 +15,21 @@ if (n > 0)
 {
 digit = (n % 10);
 _putchar (digit + '0');
-_putchar ('\n')
+_putchar ('\n');
 return (digit);
 }
 else if (n == 0)
 {
 digit = 0 % 10;
 _putchar (digit + '0');
-_putchar ('\n')
+_putchar ('\n');
 return (digit);
 }
 else
 {
 digit = n % 10 * (-1);
 _putchar (digit + '0');
-_putchar ('\n')
+_putchar ('\n');
 return (digit);
 }
 }
