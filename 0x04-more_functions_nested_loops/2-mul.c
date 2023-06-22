@@ -1,15 +1,15 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
  *mul - a function that multiplies two integers
  *
- *Return: always 0 (success)
+ *@a:first input
+ *@b:second input
+ *
+ *Return: addition of the multiplicattion
  */
 
 int mul(int a, int b)
 {
-int result = a * b;
-printf( "%i", result);
-return (0);
+return (a * b);
 }
