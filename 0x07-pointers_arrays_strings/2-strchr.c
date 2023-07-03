@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * _strchr - a function that locates a character in a string
- * @s: starting address of memory to be located
- * @c: the desired character
- * Return: changed array with new value for n bytes
+ * _strchr - Entry point
+ * @s: input
+ * @c: input
+ * Return: Always 0 (Success)
  */
 
 char *_strchr(char *s, char c)
