@@ -3,13 +3,11 @@
 #include <stdio.h>
 
 /**
- * print_numbers - a function that prints numbers
+ *print_numbers - a function that prints numbers followed by a new line
  *
  *@n: number of parameters
  *
  *@separator: string to be printed between numbers
- *
- * Return: Always success (0).
  */
 
 void print_numbers(const char *separator, const unsigned int n, ...)
@@ -20,9 +18,9 @@ va_start(count, n);
 for (x = 0; x < n; x++)
 {
 printf("%d", va_arg(count, int));
-if (x != n - 1)
+if (x != (n - 1) && separator != NULL)
 printf("%s", separator);
-va_end(count);
 }
 printf("\n");
+va_end(count);
 }
