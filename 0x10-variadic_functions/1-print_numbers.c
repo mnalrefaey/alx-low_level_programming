@@ -3,13 +3,13 @@
 #include <stdio.h>
 
 /**
- * print_numbers -  a function that prints numbers
+ * print_numbers - a function that prints numbers
  *
  *@n: number of parameters
  *
- *@separator:  string to be printed between numbers
+ *@separator: string to be printed between numbers
  *
- * Return: Return (0).
+ * Return: Always success (0).
  */
 
 void print_numbers(const char *separator, const unsigned int n, ...)
