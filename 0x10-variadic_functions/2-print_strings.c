@@ -5,7 +5,7 @@
 /**
  *print_strings - a function that prints strings followed by a new line
  *
- *@n: number of parameters
+ *@n: number of passed strings
  *
  *@separator: string to be printed between numbers
  */
@@ -13,16 +13,14 @@
 void print_strings(const char *separator, const unsigned int n, ...)
 {
 unsigned int x;
-char *str;
 va_list count;
 va_start(count, n);
 for (x = 0; x < n; x++)
 {
-str = va_arg(count, char *);
-if (count == NULL)
+if (va_arg(count, char*) == NULL)
 printf("nil");
 else
-printf("%s", str);
+printf("%s", va_arg(count, char*));
 if (x != (n - 1) && separator != NULL)
 printf("%s", separator);
 }
