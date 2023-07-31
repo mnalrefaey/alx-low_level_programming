@@ -18,13 +18,9 @@ if (head == NULL)
 {
 return (0);
 }
-else
-{
-tmp = *head;
-i = tmp->n;
-tmp = tmp->next;
+i = (*head)->n;
+tmp = (*head)->next;
 free(*head);
 *head = tmp;
-}
 return (i);
 }
