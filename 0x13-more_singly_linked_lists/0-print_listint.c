@@ -1,8 +1,8 @@
 #include "lists.h"
 
 /**
- * print_listint - a function that prints all the elements.
- *@h:linked list 
+ * print_listint - a function that prints all the elements
+ *@h: linked list
  *
  * Return:the number of nodes
  */
