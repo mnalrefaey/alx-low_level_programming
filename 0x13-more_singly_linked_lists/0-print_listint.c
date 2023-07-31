@@ -4,16 +4,16 @@
 #include "lists.h"
 
 /**
- * print_listint - prints a linked list
- *@h: pointer to first node
+ * print_listint - a function that prints a linked list
+ *@h:a pointer
  *
- * Return: Size of list
+ * Return:the number of nodes
  */
 
 size_t print_listint(const listint_t *h)
 {
 size_t i = 0;
-while (h)
+while (h != NULL)
 {
 printf("%d\n", h->n);
 i++;
