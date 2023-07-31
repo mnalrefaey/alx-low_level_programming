@@ -6,21 +6,21 @@
 /**
  * pop_listint - a function that deletes the head node
  *@head:a pointer to a pointer
- * Return: return 0 if linked list is empty
+ * Return: value of nodes
  */
 
 int pop_listint(listint_t **head)
 {
 listint_t *tmp;
-int i;
+int n;
 
 if (head == NULL)
 {
 return (0);
 }
-i = (*head)->n;
 tmp = (*head)->next;
+n = (*head)->n;
 free(*head);
 *head = tmp;
-return (i);
+return (n);
 }
