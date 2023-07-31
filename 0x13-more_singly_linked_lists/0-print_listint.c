@@ -5,7 +5,7 @@
 
 /**
  * print_listint - a function that prints all the elements.
- *@h:a pointer
+ *@h:linked list 
  *
  * Return:the number of nodes
  */
